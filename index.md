@@ -7,6 +7,60 @@ This is a public repository to store data contributed anonymously by citizens in
 We want to thank all individuals who have been willing and able to anonymously contribute data about their symptoms and health status.
 
 ### Datasets
--  raw_contributions.csv
-  - _id
-  - 
+
+#### ext_contributions.csv
+- _id
+- date
+- lon
+- lat
+- randkey
+- status
+- label
+- count
+
+#### agg_symptoms.csv
+- _id
+- date
+- lon
+- lat
+- country
+- state
+- city
+- postal
+- label
+- count
+
+#### agg_status.csv
+- _id
+- date
+- country
+- state
+- city
+- postal
+- status
+- count
+
+
+#### ref_regions
+- _id
+- region
+- country
+- state
+- city
+- postal
+- lon
+- lat
+
+
+#### ref_randkeys
+- _id
+- date
+- randkey
+- country
+- postal
+
+#### ref_blacklist
+- _id
+- date
+- randkey
+- flag
