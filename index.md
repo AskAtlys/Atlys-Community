@@ -51,10 +51,11 @@ We want to thank all individuals who have been willing and able to anonymously c
 * lon
 * lat
 
-> - United States: 'lon' & 'lat' for 'postal'.
-> - Canada: 'lon' & 'lat' for 'state'.
-> - Everywhere Else: 'lon' & 'lat' for 'country'.
-
+country | based on
+------------ | -------------
+United States | postal
+Canada | state
+Everywhere Else | country
 
 
 #### ref_randkeys
