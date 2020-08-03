@@ -72,6 +72,8 @@ lat | decimal |
 
 
 #### ref_randkeys
+column | type | notes
+------------ | ------------- | -------------
 _id | objectid |
 date | date | 
 randkey | string | 
@@ -80,6 +82,8 @@ postal | string |
 
 
 #### ref_blacklist
+column | type | notes
+------------ | ------------- | -------------
 _id | objectid |
 date | date | 
 randkey | string | 
