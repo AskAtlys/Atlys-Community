@@ -51,7 +51,9 @@ We want to thank all individuals who have been willing and able to anonymously c
 * lon
 * lat
 
-
+> - United States: 'lon' & 'lat' for 'postal'.
+> - Canada: 'lon' & 'lat' for 'state'.
+> - Everywhere Else: 'lon' & 'lat' for 'country'.
 
 
 
