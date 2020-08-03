@@ -72,14 +72,17 @@ lat | decimal |
 
 
 #### ref_randkeys
-* _id
-* date
-* randkey
-* country
-* postal
+_id | objectid |
+date | date | 
+randkey | string | 
+country | string | 
+postal | string | 
+
 
 #### ref_blacklist
-* _id
-* date
-* randkey
-* flag
+_id | objectid |
+date | date | 
+randkey | string | 
+flag | string | 
+
+* These randkeys are excluded from aggregated data sets and flagged as spam or obsolete.
