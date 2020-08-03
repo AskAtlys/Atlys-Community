@@ -9,53 +9,66 @@ We want to thank all individuals who have been willing and able to anonymously c
 ### Datasets
 
 #### ext_contributions.csv
-* _id
-* date
-* lon
-* lat
-* randkey
-* status
-* label
-* count
+
+
+column | type | notes
+------------ | ------------- | -------------
+_id | objectid |
+date | date | 
+postal | string | 
+randkey | string |
+status | string |
+label | string |
+count | integer |
+
 
 #### agg_symptoms.csv
-* _id
-* date
-* lon
-* lat
-* country
-* state
-* city
-* postal
-* label
-* count
+
+column | type | notes
+------------ | ------------- | -------------
+_id | objectid |
+date | date | 
+lon | decimal | 
+lat | decimal | 
+country | string | 
+city | string | 
+postal | string | 
+label | string |
+count | integer |
+
 
 #### agg_status.csv
-* _id
-* date
-* country
-* state
-* city
-* postal
-* status
-* count
+
+column | type | notes
+------------ | ------------- | -------------
+_id | objectid |
+date | date | 
+lon | decimal | 
+lat | decimal | 
+country | string | 
+city | string | 
+postal | string | 
+status | string |
+count | integer |
 
 
 #### ref_regions
-* _id
-* region
-* country
-* state
-* city
-* postal
-* lon
-* lat
 
-country | based on
------------- | -------------
-United States | postal
-Canada | state
-Everywhere Else | country
+column | type | notes
+------------ | ------------- | -------------
+_id | objectid |
+region | string | 
+country | string | 
+state | string |
+city | string | 
+postal | string | 
+lon | decimal |
+lat | decimal |
+
+* The 'lon' and 'lat' is currently set according to:                               
+  * United States: postal
+  * Canada: state
+  * Everywhere Else: country
 
 
 #### ref_randkeys
