@@ -28,8 +28,8 @@ column | type | notes
 ------------ | ------------- | -------------
 _id | objectid |
 date | date | 
-lon | decimal | 
-lat | decimal | 
+lon | double | 
+lat | double | 
 country | string | 
 city | string | 
 postal | string | 
@@ -43,8 +43,8 @@ column | type | notes
 ------------ | ------------- | -------------
 _id | objectid |
 date | date | 
-lon | decimal | 
-lat | decimal | 
+lon | double | 
+lat | double | 
 country | string | 
 city | string | 
 postal | string | 
@@ -62,8 +62,8 @@ country | string |
 state | string |
 city | string | 
 postal | string | 
-lon | decimal |
-lat | decimal |
+lon | double |
+lat | double |
 
 * The 'lon' and 'lat' is currently set according to:                               
   * United States: postal
