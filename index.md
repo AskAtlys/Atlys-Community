@@ -9,58 +9,61 @@ We want to thank all individuals who have been willing and able to anonymously c
 ### Datasets
 
 #### ext_contributions.csv
-- _id
-- date
-- lon
-- lat
-- randkey
-- status
-- label
-- count
+* _id
+* date
+* lon
+* lat
+* randkey
+* status
+* label
+* count
 
 #### agg_symptoms.csv
-- _id
-- date
-- lon
-- lat
-- country
-- state
-- city
-- postal
-- label
-- count
+* _id
+* date
+* lon
+* lat
+* country
+* state
+* city
+* postal
+* label
+* count
 
 #### agg_status.csv
-- _id
-- date
-- country
-- state
-- city
-- postal
-- status
-- count
+* _id
+* date
+* country
+* state
+* city
+* postal
+* status
+* count
 
 
 #### ref_regions
-- _id
-- region
-- country
-- state
-- city
-- postal
-- lon
-- lat
+* _id
+* region
+* country
+* state
+* city
+* postal
+* lon
+* lat
+
+
+
 
 
 #### ref_randkeys
-- _id
-- date
-- randkey
-- country
-- postal
+* _id
+* date
+* randkey
+* country
+* postal
 
 #### ref_blacklist
-- _id
-- date
-- randkey
-- flag
+* _id
+* date
+* randkey
+* flag
